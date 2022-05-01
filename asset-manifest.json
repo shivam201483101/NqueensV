@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NqueensV/static/css/main.257f8ab0.css",
+    "main.js": "/NqueensV/static/js/main.c8b949ee.js",
+    "static/media/crown.png": "/NqueensV/static/media/crown.8dba535b50f1ada8cca4.png",
+    "index.html": "/NqueensV/index.html",
+    "main.257f8ab0.css.map": "/NqueensV/static/css/main.257f8ab0.css.map",
+    "main.c8b949ee.js.map": "/NqueensV/static/js/main.c8b949ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.257f8ab0.css",
+    "static/js/main.c8b949ee.js"
+  ]
+}
