@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# <img src="https://www.vhv.rs/dpng/d/108-1081132_vector-chess-logo-png-transparent-png.png" alt="nqueen viualizer" height="60" width="60">N-Queen Algorithm Visualizer 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Welcome to the N-Queen Algorithm Visualizer! This project is a web application that allows you to visualize the N-Queen problem using HTML, CSS, and JavaScript. The N-Queen problem is a classic puzzle where you need to place N queens on an N×N chessboard in such a way that no two queens attack each other. The goal of this visualizer is to demonstrate how the algorithm solves the N-Queen problem step by step.
 
-### `npm start`
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Setup](#setup)
+5. [Usage](#usage)
+6. [Algorithm Explanation](#algorithm-explanation)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
+The N-Queen Algorithm Visualizer is an educational tool that helps users understand how the N-Queen problem can be solved using a backtracking algorithm. The project provides an interactive chessboard interface where users can select the board size (N) and watch the algorithm in action, placing queens one by one until a valid solution is found. The visualization will show the backtracking process, highlighting the placement and removal of queens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Interactive chessboard where users can select the board size (N).
+- Visualization of the backtracking algorithm to solve the N-Queen problem.
+- Animation and highlights for each step of the algorithm for better understanding.
+- Display of the final solution if a valid arrangement of queens is found.
 
-### `npm test`
+## Technologies Used
+The N-Queen Algorithm Visualizer is built using the following technologies:
+- HTML5, CSS3, and JavaScript for the frontend development.
+- SVG (Scalable Vector Graphics) for rendering the chessboard and queens.
+- [Your Preferred JavaScript Library](https://library-url.com) (Optional - if using any specific JavaScript library).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
+1. Clone the repository from GitHub.
+2. Open the `index.html` file in your web browser.
+3. Choose the board size (N) for the N-Queen problem using the provided input or dropdown.
+4. Click on the "Visualize" button to start the visualization.
 
-### `npm run build`
+## Usage
+1. Once the visualization starts, the application will attempt to solve the N-Queen problem using the backtracking algorithm.
+2. Watch as queens are placed on the chessboard one by one, attempting to find a valid solution.
+3. Observe how the algorithm backtracks when it encounters conflicts and tries different arrangements until a solution is found or all possibilities are exhausted.
+4. If a valid solution is found, the visualization will display the final arrangement of queens on the chessboard.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Algorithm Explanation
+The N-Queen problem is solved using a backtracking algorithm, which is a type of depth-first search. At each step, the algorithm attempts to place a queen on the board, and if a conflict is detected, it backtracks to the previous state and tries a different position. The process continues until a valid arrangement of queens is found or all possibilities are exhausted. The visualization will highlight each step, making it easier to understand the backtracking process.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+We welcome contributions to improve this N-Queen Algorithm Visualizer. If you have any suggestions, find any issues, or want to add new features, please open an issue or submit a pull request. Let's make this educational tool even better together!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+The N-Queen Algorithm Visualizer is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We hope you find the N-Queen Algorithm Visualizer helpful in learning about the N-Queen problem and the backtracking algorithm. If you have any questions or need assistance, feel free to contact.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy visualizing! 👑
